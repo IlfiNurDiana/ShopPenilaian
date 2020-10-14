@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.header {
+    background-color: rgb(0, 172, 92);
+    color: white;
+    height: 82px;
+}
+.menu-logo {
+    float: left;
+    padding: 3px 50px 20px 30px;
+    font-family: monospace;
+    font-size: 38px;
+    font-weight: bold;
+}
+.menu-list li {
+    float: left;
+    padding: 20px 30px 27px 30px;
+    font-family: lucida;
+    font-weight: 550;
+    word-spacing: 4px;
+}
+.top {
+    background-color: rgb(0, 172, 92);
+    padding-top: 1px;
+}
+.menu-list li:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+.selected {
+    background-color: #ffffff;
+    color: #000000;
+}
+.main {
+    background-color: rgb(219, 255, 205);
+    height: 700px;
+}
+.nilai {
+    height: 100px;
+}
+.nilai h4 {
+    float: left;
+    padding: 20px 25% 0 25%;
+}
+.nilai p {
+    float: left;
+    padding: 0 40px;
+}
+.kolom {
+    padding: 0 40px;
+    float: left;
+}
+input,textarea {
+    width: 400px;
+    border: 2px solid rgb(5, 158, 86);
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+.kirim {
+    background-color: rgb(5, 158, 86);
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.footer {
+    background-color: rgb(10, 63, 32);
+    color: white;
+    height: 85px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: small;
+}
